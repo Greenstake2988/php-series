@@ -9,7 +9,7 @@ $note = $db->query("SELECT * FROM notes where id = ?", [
     $_GET['id']
 ])->fetchOrAbort();
 
-authorized($note['user_id'] === 1);
+authorized($note['user_id'] === 3);
 
 view("notes/show.view.php", [
     'heading' => "Note",

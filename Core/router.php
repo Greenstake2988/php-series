@@ -3,7 +3,7 @@
 function abort($code)
 {
     http_response_code($code);
-    require("views/{$code}.php");
+    view("{$code}.php");
     die();
 }
 
