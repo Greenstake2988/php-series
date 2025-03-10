@@ -25,6 +25,15 @@ function authorize($condition, $status = Response::FORBIDDEN)
     return true;
 }
 
+function abort($code = 404)
+{
+    http_response_code($code);
+
+    view("{$code}.php");
+
+    die();
+}
+
 function base_path($path)
 {
     return BASE_PATH . $path;

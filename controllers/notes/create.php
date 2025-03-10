@@ -21,6 +21,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             "user_id" => 1
         ]);
     }
+
+    header('Location: /notes');
+    exit();
 }
 
 view("notes/create.view.php", [

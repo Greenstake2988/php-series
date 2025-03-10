@@ -9,8 +9,9 @@ $currentUserId = 1;
 
 // Kinda gross, yes? We'll refactor toward a cleaner approach in episode 33.
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+
     $note = $db->query('select * from notes where id = :id', [
-        'id' => $_GET['id']
+        'id' => $_POST['id']
     ])->findOrFail();
 
     authorize($note['user_id'] === $currentUserId);
