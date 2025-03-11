@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9f68bae-2b4e-430c-b5da-2039f0c0e11c" name="Changes" comment="GG alfin">
-      <change afterPath="$PROJECT_DIR$/controllers/notes/destroy.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/notes/store.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/notes/create.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/create.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/notes/show.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/notes/show.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +61,7 @@
       <updated>1741477988367</updated>
       <workItem from="1741477989447" duration="1530000" />
       <workItem from="1741639162762" duration="6118000" />
+      <workItem from="1741711651189" duration="200000" />
     </task>
     <task id="LOCAL-00001" summary="GG alfin">
       <option name="closed" value="true" />
